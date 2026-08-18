@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danish Malhi — Software Developer</title>
+    <meta
+      name="description"
+      content="Danish Malhi — Software Developer & Full-Stack Developer. C++, Java, Python, Node.js, Express."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise-overlay"></div>
+
+    <!-- NAV  -->
+    <header class="nav" id="nav">
+      <div class="nav-inner">
+        <a href="#top" class="nav-logo">dm<span class="dot">.</span></a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#about">about</a>
+          <a href="#skills">skills</a>
+          <a href="#projects">projects</a>
+          <a href="#education">education</a>
+          <a href="#contact">contact</a>
+          <a href="Danish_Malhi_Resume.pdf" download class="nav-resume-mobile"
+            >resume ↓</a
+          >
+        </nav>
+        <a
+          href="Danish_Malhi_Resume.pdf"
+          download
+          class="btn btn-ghost nav-resume"
+          >resume ↓</a
+        >
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <!--  HERO  -->
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">// software_developer.init()</p>
+            <div class="hero-name-row">
+              <!-- To use your own photo: save it as "profile.jpg" in this same folder. -->
+              <div class="photo-frame photo-frame-sm">
+                <img
+                  class="photo-img"
+                  src="profile.jpg"
+                  alt="Danish Malhi"
+                  onerror="this.style.display = 'none'"
+                />
+                <span class="photo-fallback">DM</span>
+              </div>
+              <h1 class="hero-title">Danish Malhi</h1>
+            </div>
+            <p class="hero-role">
+              Full-Stack Developer, mostly living in
+              <span class="accent">Node.js</span> &amp;
+              <span class="accent-2">Express</span>
+            </p>
+            <p class="hero-desc">
+              Software Engineering student at Iqra University, Karachi —
+              building clean, maintainable systems from database schema to
+              responsive UI. Currently shipping <strong>SpaceAR</strong>, an AR
+              interior-design app, as my final year project.
+            </p>
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">view projects</a>
+              <a href="#contact" class="btn btn-outline">get in touch</a>
+            </div>
+            <div class="hero-meta">
+              <span>Karachi, Sindh</span>
+              <span class="sep">·</span>
+              <span>Available for internships</span>
+            </div>
+          </div>
+
+          <div class="hero-terminal">
+            <div class="terminal-window">
+              <div class="terminal-bar">
+                <span class="dot-red"></span><span class="dot-yellow"></span
+                ><span class="dot-green"></span>
+                <span class="terminal-title">developer.js</span>
+              </div>
+              <pre
+                class="terminal-body"
+              ><code id="typedCode"></code><span class="cursor">▌</span></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="section-head">
+          <p class="eyebrow">// about</p>
+          <h2>Who's building this</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-photo-col">
+            <div class="photo-frame photo-frame-lg">
+              <img
+                class="photo-img"
+                src="profile.jpg"
+                alt="Danish Malhi"
+                onerror="this.style.display = 'none'"
+              />
+              <span class="photo-fallback photo-fallback-lg">DM</span>
+            </div>
+          </div>
+          <div class="about-copy-col">
+            <p class="about-text">
+              I'm a Software Engineering undergrad at
+              <strong>Iqra University</strong>, Karachi, currently in my final
+              year. My comfort zone is full-stack web development — Node.js and
+              Express on the backend, clean HTML/CSS/JS on the front — but my
+              coursework has pushed me through networking, databases, and
+              applied AI as well. I like code that's easy to read six months
+              later, and I care more about a project working end-to-end than
+              about it looking clever.
+            </p>
+            <ul class="about-facts">
+              <li><span>Base</span>Karachi, Pakistan</li>
+              <li>
+                <span>Studying</span>Software Engineering, Iqra University
+              </li>
+              <li><span>Focus</span>Full-stack web, REST APIs, applied AI</li>
+              <li><span>Now building</span>SpaceAR — AR interior design app</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section" id="skills">
+        <div class="section-head">
+          <p class="eyebrow">// skills</p>
+          <h2>What I work with</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <div class="tag-row">
+              <span class="tag">C++</span><span class="tag">Java</span> ><span
+                class="tag"
+                >Python</span
+              ><span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Web Technologies</h3>
+            <div class="tag-row">
+              <span class="tag">HTML5</span><span class="tag">CSS3</span
+              ><span class="tag">Node.js</span><span class="tag">Express</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <div class="tag-row">
+              <span class="tag">SQL Server</span
+              ><span class="tag">Firebase</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Tools &amp; Platforms</h3>
+            <div class="tag-row">
+              <span class="tag">Git</span><span class="tag">GitHub</span
+              ><span class="tag">VS Code</span
+              ><span class="tag">Cisco Packet Tracer</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Concepts</h3>
+            <div class="tag-row">
+              <span class="tag">OOP</span
+              ><span class="tag">Data Structures</span
+              ><span class="tag">REST APIs</span
+              ><span class="tag">MVC Architecture</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Currently exploring</h3>
+            <div class="tag-row">
+              <span class="tag">Flutter</span><span class="tag">TensorFlow</span
+              ><span class="tag">FastAPI</span><span class="tag">ARCore</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  PROJECTS  -->
+      <section class="section" id="projects">
+        <div class="section-head">
+          <p class="eyebrow">// projects</p>
+          <h2>Things I've built</h2>
+        </div>
+
+        <!-- Featured FYP -->
+        <article class="project-featured">
+          <div class="project-featured-tag">Final Year Project</div>
+          <div class="project-featured-grid">
+            <div>
+              <h3>SpaceAR</h3>
+              <p class="project-role">
+                AR-powered mobile interior design app with AI furniture
+                recommendations
+              </p>
+              <p>
+                SpaceAR lets users point their phone at a room and preview
+                furniture in augmented reality before buying it, with a
+                recommendation engine that suggests pieces based on the room's
+                style and dimensions. It's the capstone project for my final
+                year, combining mobile AR, computer vision, and a full backend
+                service.
+              </p>
+              <div class="tag-row">
+                <span class="tag tag-accent">Flutter</span>
+                <span class="tag tag-accent">ARCore</span>
+                <span class="tag tag-accent">TensorFlow</span>
+                <span class="tag tag-accent">OpenCV</span>
+                <span class="tag tag-accent">FastAPI</span>
+                <span class="tag tag-accent">Firebase</span>
+              </div>
+            </div>
+            <div class="project-featured-visual">
+              <div class="mock-phone">
+                <div class="mock-phone-notch"></div>
+                <div class="mock-phone-screen">
+                  <div class="mock-ar-box"></div>
+                  <div class="mock-ar-label">furniture_match: 94%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Kirshana Painters Website</h3>
+            <p>
+              Full-stack business website built on Node.js and Express, with a
+              responsive HTML/CSS/JS frontend and RESTful APIs handling
+              client-server communication, structured with MVC architecture.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Node.js</span><span class="tag">Express</span
+              ><span class="tag">MVC</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Employee Payroll System</h3>
+            <p>
+              Relational database for payroll management in SQL Server, with
+              normalized schema, primary/foreign key relationships, and queries
+              for salary calculation and reporting.
+            </p>
+            <div class="tag-row">
+              <span class="tag">SQL Server</span
+              ><span class="tag">Database Design</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>DCCN Network Project</h3>
+            <p>
+              Simulated a full network topology in Cisco Packet Tracer —
+              routers, switches, VLANs, inter-VLAN routing, IP subnetting, and
+              packet-level TCP/IP analysis for troubleshooting.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Networking</span><span class="tag">TCP/IP</span
+              ><span class="tag">VLANs</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>ATM Simulation</h3>
+            <p>
+              Command-line banking simulator in Python covering balance inquiry,
+              withdrawals, and deposits, organized into modular, reusable
+              functions.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Python</span><span class="tag">CLI</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--  EDUCATION  -->
+      <section class="section" id="education">
+        <div class="section-head">
+          <p class="eyebrow">// education</p>
+          <h2>Where I'm learning it</h2>
+        </div>
+        <div class="edu-card">
+          <div class="edu-line">
+            <h3>Iqra University, Karachi</h3>
+            <span class="edu-date">March 2023 — Present</span>
+          </div>
+          <p class="edu-degree">BS Software Engineering</p>
+          <p class="edu-desc">
+            Coursework spanning AI, software engineering, and web development —
+            from data structures and formal methods to applied machine learning
+            and full-stack application development.
+          </p>
+        </div>
+      </section>
+
+      <!--  CONTACT  -->
+      <section class="section" id="contact">
+        <div class="section-head">
+          <p class="eyebrow">// contact</p>
+          <h2>Let's talk</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p>
+              Open to internships, freelance web work, and anything that lets me
+              ship full-stack projects. Fastest way to reach me is email — I'll
+              get back to you within a day or two.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:dkmalhi2004@gmail.com">dkmalhi2004@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Phone</span>
+                <a href="tel:03363547482">0336 3547482</a>
+              </li>
+              <li>
+                <span class="contact-label">GitHub</span>
+                <a
+                  href="https://github.com/DanishMalhi556"
+                  target="_blank"
+                  rel="noopener"
+                  >github.com/DanishMalhi556</a
+                >
+              </li>
+              <li>
+                <span class="contact-label">Location</span>
+                <span>Karachi, Sindh, Pakistan</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="What are you thinking?"
+                required
+              ></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">send message</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Danish Malhi</p>
+      <p class="footer-year">&copy; <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
